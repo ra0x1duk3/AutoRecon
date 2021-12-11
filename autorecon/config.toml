@@ -1,7 +1,7 @@
 # Configure regular AutoRecon options at the top of this file.
 
-create-port-dirs = true
-nmap-append = '-T4'
+create-port-dirs = false
+# nmap-append = '-T4'
 # verbose = 1
 # max-scans = 30
 
@@ -13,7 +13,7 @@ nmap-append = '-T4'
 # [dirbuster]
 # threads = 50
 # wordlist = [
-# 	'/usr/share/seclists/Discovery/Web-Content/common.txt',
-# 	'/usr/share/seclists/Discovery/Web-Content/big.txt',
-# 	'/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt'
+#   '/usr/share/seclists/Discovery/Web-Content/common.txt',
+#   '/usr/share/seclists/Discovery/Web-Content/big.txt',
+#   '/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt'
 # ]
