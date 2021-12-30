@@ -402,7 +402,7 @@ async def scan_target(target):
 
 
         # subtitle
-        file.writelines('## Network Topology')
+        file.writelines('## Network Topology\n\n')
 
 
     screenshotdir = os.path.join(reportdir, 'screenshots')
